@@ -8,7 +8,9 @@ const Tile2 = ({ darkMode }) => {
     <div className={darkMode ? style.tileContainerDark : style.tileContainer}>
       <p className={style.title}>Need help?</p>
       <br />
-      <p class="description">Submit an IBM Cloud Support Case to our team</p>
+      <p className={style.description}>
+        Submit an IBM Cloud Support Case to our team
+      </p>
       <br />
       <div className={style.buttons}>
         <Button

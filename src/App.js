@@ -6,11 +6,8 @@ const App = () => {
   useEffect(() => {
     const queryParams = new URLSearchParams(window.location.search);
     try {
-      const config = queryParams.get("ace_config");
-      const splitted = config.split("darkMode")[1];
-      const mode = splitted.replace(/["\\:}]+/g, "");
-      const darkMode = true ? mode === "true" : false;
-      setDarkMode(darkMode);
+      const config = JSON.parse(queryParams.get("ace_config"));
+      setDarkMode(config.darkMode);
     } catch {
       setDarkMode(false);
     }
