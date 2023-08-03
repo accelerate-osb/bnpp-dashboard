@@ -1,16 +1,20 @@
 .tileContainer {
   background-color: #ffffff;
-  padding: 10px;
+  padding: 16px;
   height: auto;
   width: 80%;
 }
 
 .tileContainerDark {
   background-color: #262626 !important;
-  padding: 10px;
+  padding: 16px;
   height: auto;
   width: 80%;
   color: #f4f4f4;
+}
+
+.content {
+  padding: 16px;
 }
 
 .primaryButtonDark {
