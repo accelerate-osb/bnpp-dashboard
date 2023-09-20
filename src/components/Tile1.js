@@ -10,7 +10,7 @@ const Tile1 = ({ darkMode }) => {
       <p className={style.title}>Getting Started</p>
       <br />
       <p className={style.description}>
-        Thank you for subscribing to IBM Cloud SEIM!
+        Thank you for subscribing to IBM Cloud SIEM!
         <br />
         <br />
         The IBM Cloud team is setting up your instance and providing access to
@@ -19,7 +19,7 @@ const Tile1 = ({ darkMode }) => {
         Access make take up to two business days.
         <br />
         <br />
-        If you need to reach out to the IBM Cloud SEIM team sooner, you can
+        If you need to reach out to the IBM Cloud SIEM team sooner, you can
         email the
         <Link
           className={darkMode ? style.linkDark : ""}
@@ -30,7 +30,7 @@ const Tile1 = ({ darkMode }) => {
         <br />
         <br />
         Once your instance is setup and access is granted, you can reach the IBM
-        Cloud SEIM UI dashboard using the button below.
+        Cloud SIEM UI dashboard using the button below.
       </p>
       <div className={style.buttons}>
         <Button
@@ -40,7 +40,7 @@ const Tile1 = ({ darkMode }) => {
             window.open("https://console-00885.qradar.ibmcloud.com", "_blank")
           }
         >
-          Go to IBM Cloud SEIM Dashboard
+          Go to IBM Cloud SIEM Dashboard
         </Button>
         <Button
           className={darkMode ? style.primaryButtonDark : style.button}
