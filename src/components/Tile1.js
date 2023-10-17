@@ -13,10 +13,18 @@ const Tile1 = ({ darkMode }) => {
         Thank you for subscribing to IBM Cloud SIEM!
         <br />
         <br />
-        The IBM Cloud team is setting up your instance and providing access to
-        your user administrator.
-        <br />
-        Access make take up to two business days.
+        In order to set up your instance,{" "}
+        <Link
+          className={darkMode ? style.linkDark : ""}
+          href="https://cloud.ibm.com/unifiedsupport/cases/form"
+        >
+          create a Support Case
+        </Link>{" "}
+        under the Topic &quot;IBM Cloud SIEM for ISVs&quot; and Subtopic
+        &quot;New Instance Onboarding Request&quot; and provide your IP address
+        of jump server, Plan Name (Small/Medium/Large), and Email Address of
+        users who need access (comma separated). Access may take up to two
+        business days.
         <br />
         <br />
         If you need to reach out to the IBM Cloud SIEM team sooner, you can
@@ -37,7 +45,10 @@ const Tile1 = ({ darkMode }) => {
           className={darkMode ? style.primaryButtonDark : style.button}
           renderIcon={Launch}
           onClick={() =>
-            window.open("https://console-00885.qradar.ibmcloud.com", "_blank")
+            window.open(
+              "https://ibmcld-pari-eu-qcon1.cloudsiem.ibm.com/",
+              "_blank"
+            )
           }
         >
           Go to IBM Cloud SIEM Dashboard
