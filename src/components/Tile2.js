@@ -19,7 +19,7 @@ const Tile2 = ({ darkMode }) => {
           renderIcon={Launch}
           onClick={() =>
             window.open(
-              "https://www.ibm.com/mysupport/s/createrecord/NewCase",
+              "https://cloud.ibm.com/unifiedsupport/cases/form?type=0700b67447ed7d5038e0861f536d43ad",
               "_blank"
             )
           }

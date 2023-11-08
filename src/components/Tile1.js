@@ -16,15 +16,15 @@ const Tile1 = ({ darkMode }) => {
         In order to set up your instance,{" "}
         <Link
           className={darkMode ? style.linkDark : ""}
-          href="https://cloud.ibm.com/unifiedsupport/cases/form"
+          href="https://cloud.ibm.com/unifiedsupport/cases/form?type=085127ea971eb11400d2bbdfe153afad"
         >
           create a Support Case
         </Link>{" "}
-        under the Topic &quot;IBM Cloud SIEM for ISVs&quot; and Subtopic
-        &quot;New Instance Onboarding Request&quot; and provide your IP address
-        of jump server, Plan Name (Small/Medium/Large), and Email Address of
-        users who need access (comma separated). Access may take up to two
-        business days.
+        under the Topic &quot;IBM Cloud SIEM for ISVs - Instance
+        Management&quot; and Subtopic &quot;New Instance Onboarding
+        Request&quot; and provide your IP address of jump server, Plan Name
+        (Small/Medium/Large), and Email Address of users who need access (comma
+        separated). Access may take up to two business days.
         <br />
         <br />
         If you need to reach out to the IBM Cloud SIEM team sooner, you can
